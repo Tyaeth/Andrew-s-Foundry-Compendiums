@@ -5,8 +5,8 @@
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion":"0.9",
+  "minimumCoreVersion": "7",
+  "compatibleCoreVersion":"9",
   "authors": [
     {
       "name": "Andrew",
@@ -47,11 +47,12 @@
   ],
   "packs": [
     {
-      "name": "andrewcompendium",
+      "name": "Andrews Compendium",
       "label": "Andrews Compendium",
-      "path": "./packs/compendium.db",
-      "type": "Item",
-      "entity": "Item"
+      "path": "packs/compendium.db",
+      "system": "dnd5e",
+      "entity": "Item",
+      "module": "Andrews-Shared-Assets"
     }
   ]
 }

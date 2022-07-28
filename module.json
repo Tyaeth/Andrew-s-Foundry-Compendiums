@@ -5,11 +5,8 @@
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
-  "compatibility": {
-    "minimum": 7,
-    "verified": 9,
-    "maximum": 11
-  },
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion":"0.9",
   "authors": [
     {
       "name": "Andrew",
@@ -51,10 +48,10 @@
   "packs": [
     {
       "name": "andrewcompendium",
-      "label": "Andrew's Compendium",
-      "path": "packs/compendium.db",
-      "entity": "Item",
-      "module": "Andrews-Shared-Assets"
+      "label": "Andrews Compendium",
+      "path": "./packs/compendium.db",
+      "type": "Item",
+      "entity": "Item"
     }
   ]
 }
